@@ -1,6 +1,6 @@
 function matrix = func_roty(angle)
   
-  matrix = [ cos(angle)  0 sin(angle);
+  matrix = [ cosd(angle)  0 sind(angle);
              0           1     0 ;
-             -sin(angle) 0 cos(angle) ];  
+             -sind(angle) 0 cosd(angle) ];  
   end
